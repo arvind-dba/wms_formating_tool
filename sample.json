@@ -1,0 +1,257 @@
+{
+    "_id": "3fumGwkYbqZyyZXpT",
+    "sessionId": "dsLTjbBoymhk3yFfr",
+    "userId": "BCebA33mt6XfGTCfH",
+    "shopId": "J8Bhq3uTtdgwZx3rz",
+    "createdAt": "2018-05-21T20:16:19.409   Z",
+    "workflow": {
+        "status": "checkoutPayment",
+        "workflow": [
+            "checkoutLogin",
+            "checkoutAddressBook",
+            "coreCheckoutShipping",
+            "checkoutReview",
+            "checkoutPayment"
+        ]
+    },
+    "billing": [
+        {
+            "paymentMethod": {
+                "processor": "Example",
+                "paymentPackageId": "qQccz4nY3g7hCgrC6",
+                "paymentSettingsKey": "example-paymentmethod",
+                "storedCard": "Visa 1111",
+                "method": "credit",
+                "transactionId": "dRvhxhcuiWGTFtBd8",
+                "riskLevel": "normal",
+                "currency": "INR",
+                "amount": 16094.56,
+                "status": "created",
+                "mode": "authorize",
+                "createdAt": "2018-05-23T09:09:53.337            Z",
+                "transactions": [
+                    {
+                        "amount": 16094.56,
+                        "transactionId": "dRvhxhcuiWGTFtBd8",
+                        "currency": "INR"
+                    },
+                    {
+                        "code": "referralSlug",
+                        "referralSlug": ""
+                    }
+                ]
+            },
+            "invoice": {
+                "shipping": 99,
+                "subtotal": 20969,
+                "taxes": 2439.98,
+                "discounts": 0,
+                "total": 16094.56
+            },
+            "address": {
+                "country": "IN",
+                "fullName": "Mr ROSHAN SINGH BISHT",
+                "address1": "358 UV, phase 4",
+                "address2": "Madhya Marg, DLF Phase 2",
+                "postal": "122002",
+                "city": "Gurgaon",
+                "region": "Haryana",
+                "phone": "9872683639",
+                "isShippingDefault": true,
+                "isBillingDefault": true,
+                "isCommercial": false,
+                "_id": "f4t5Pc3u8uNnFtLcj"
+            },
+            "shopId": "J8Bhq3uTtdgwZx3rz",
+            "_id": "NB2hu2dg3JoA5RLuo"
+        },
+        {
+            "paymentMethod": {
+                "id": "FFjhWC2agyGaza494",
+                "processor": "code",
+                "method": "discount",
+                "code": "IFAZONE",
+                "referralSlug": "",
+                "transactionId": "hdttDRdXYbhzouLSS",
+                "amount": "10",
+                "status": "created"
+            },
+            "_id": "g9WKkTC3cP8rvG3LQ"
+        }
+    ],
+    "updatedAt": "2018-05-23T09:11:20.425   Z",
+    "discount": 696.78,
+    "items": [
+        {
+            "_id": "xsXhamEEJHNDG6Q9b",
+            "shopId": "J8Bhq3uTtdgwZx3rz",
+            "productId": "5ab4c7f4b97ac43c087ae076",
+            "quantity": 1,
+            "product": {
+                "_id": "5ab4c7f4b97ac43c087ae076",
+                "title": "White Serene Shirt",
+                "ancestors": [],
+                "createdAt": "2017-10-25T12:03:14            Z",
+                "description": "Nothing makes a bolder statement than solids, more so when you want to be project seriousness while being tactful and looking fabulous while doing both. Pair it with formal pleated or unpleated trousers to signal your evolved style quotionent.",
+                "handle": "white-serene-shirt",
+                "hashtags": [
+                    "5ab4c7f0b97ac43c087ad8f5",
+                    "5ab4c7f0b97ac43c087ad916",
+                    "5ab4c7f1b97ac43c087ae045",
+                    "5ab4c7f4b97ac43c087ae04d",
+                    "5ab4c7f4b97ac43c087ae051"
+                ],
+                "isBackorder": false,
+                "isLowQuantity": false,
+                "isSoldOut": false,
+                "isVisible": true,
+                "pageTitle": "White Serene Shirt",
+                "price": {
+                    "max": 1659,
+                    "min": 1659,
+                    "range": "1659.00"
+                },
+                "type": "simple",
+                "updatedAt": "2018-05-23T09:10:38.669            Z",
+                "vendor": "Ifazone",
+                "shopId": "J8Bhq3uTtdgwZx3rz",
+                "originCountry": "US",
+                "requiresShipping": true,
+                "isDeleted": false,
+                "template": "productDetailSimple",
+                "workflow": {
+                    "status": "new"
+                }
+            },
+            "variants": {
+                "_id": "5ab4c7f4b97ac43c087ae079",
+                "title": "L",
+                "ancestors": [
+                    "5ab4c7f4b97ac43c087ae076",
+                    "5ab4c7f4b97ac43c087ae077"
+                ],
+                "createdAt": "2017-10-25T12:03:14            Z",
+                "inventoryManagement": true,
+                "inventoryPolicy": true,
+                "inventoryQuantity": 50,
+                "isDeleted": false,
+                "isVisible": true,
+                "optionTitle": "L",
+                "price": 1659,
+                "shopId": "J8Bhq3uTtdgwZx3rz",
+                "sku": "04D30210-L",
+                "taxCode": "0000",
+                "taxable": true,
+                "type": "variant",
+                "updatedAt": "2017-10-25T12:03:14            Z",
+                "compareAtPrice": 0,
+                "weight": 0,
+                "length": 0,
+                "width": 0,
+                "height": 0,
+                "lowInventoryWarningThreshold": 0,
+                "originCountry": "US",
+                "workflow": {
+                    "status": "new"
+                }
+            },
+            "title": "White Serene Shirt",
+            "type": "simple",
+            "parcel": null
+        }
+    ],
+    "taxes": [
+        {
+            "price": "1659.00",
+            "title": "White Serene Shirt (L)",
+            "quantity": 1,
+            "sku": "04D30210-L",
+            "discountPct": 42,
+            "discount": 696.78,
+            "amountAfterMSD": 962.22,
+            "subTotal": 1659,
+            "igst": 0,
+            "igstPct": 0,
+            "cgst": 86.6,
+            "cgstPct": 9,
+            "sgst": 86.6,
+            "sgstPct": 9,
+            "totalTax": 173.2,
+            "total": 1135.42
+        }
+    ],
+    "taxItems": [
+        {
+            "price": "1659.00",
+            "title": "White Serene Shirt (L)",
+            "quantity": 1,
+            "sku": "04D30210-L",
+            "discountPct": 42,
+            "discount": 696.78,
+            "amountAfterMSD": 962.22,
+            "subTotal": 1659,
+            "igst": 0,
+            "igstPct": 0,
+            "cgst": 86.6,
+            "cgstPct": 9,
+            "sgst": 86.6,
+            "sgstPct": 9,
+            "totalTax": 173.2,
+            "total": 1135.42
+        }
+    ],
+    "tax": 0.10440024110910186,
+    "shipping": [
+        {
+            "shopId": "J8Bhq3uTtdgwZx3rz",
+            "address": {
+                "country": "IN",
+                "fullName": "Mr ROSHAN SINGH BISHT",
+                "address1": "358 UV, phase 4",
+                "address2": "Madhya Marg, DLF Phase 2",
+                "postal": "122002",
+                "city": "Gurgaon",
+                "region": "Haryana",
+                "phone": "9872683639",
+                "isShippingDefault": true,
+                "isBillingDefault": true,
+                "isCommercial": false,
+                "_id": "f4t5Pc3u8uNnFtLcj"
+            },
+            "_id": "wKCzNNQSsSQrJhXeo",
+            "shipmentQuotesQueryStatus": {
+                "requestStatus": "success",
+                "numOfShippingMethodsFound": 1
+            },
+            "shipmentQuotes": [
+                {
+                    "carrier": "Flat Rate",
+                    "method": {
+                        "name": "IFAZONE",
+                        "label": "Default Shipping",
+                        "group": "Free",
+                        "cost": 1,
+                        "rate": 0.1,
+                        "enabled": true,
+                        "_id": "6fBqySfZ4gGLNdoAf",
+                        "handling": 0,
+                        "carrier": "Flat Rate"
+                    },
+                    "rate": 0.1,
+                    "shopId": "J8Bhq3uTtdgwZx3rz"
+                }
+            ],
+            "shipmentMethod": {
+                "name": "IFAZONE",
+                "label": "Default Shipping",
+                "group": "Free",
+                "cost": 1,
+                "rate": 99,
+                "enabled": true,
+                "_id": "6fBqySfZ4gGLNdoAf",
+                "handling": 0,
+                "carrier": "Flat Rate"
+            }
+        }
+    ]
+}
